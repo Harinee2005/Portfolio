@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Harinee</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Harinee S</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Harinee S</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+
+      <section id="profile">
+        <div class="section-text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Harinee S</h1>
+          <p class="section__text__p2">FullStack Developer</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('https://drive.google.com/file/d/17V-c2ZegLjVOrieURPfzKczPs4zgt1b2/view?usp=sharing')"
+            >
+              Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='#contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <a href="https://www.linkedin.com/in/harinee-shanmugam/" target="_blank">
+                <img
+                src="./assets/linkedIn.png"
+                alt="My LinkedIn profile"
+                class="icon"
+              />
+            </a>
+            
+            <a href="https://github.com/Harinee2005" target="__blank">
+                <img
+                src="./assets/gitHub.jpg"
+                alt="My Github profile"
+                class="icon"
+              />
+            </a>  
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <h3>B.Tech Information Technology</h3>
+                <p>III Year (2022-2026)<br />CGPA: 9 - Till 4th Semester</p>
+              </div>
+              <div class="details-container">
+                <h3>SSLC & HSC</h3>
+                <p>10th (2019-2020) - 95.4%<br />12th (2021-2022) - 88.5%</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                My journey in web development started with mastering HTML, CSS, and JavaScript to build interactive websites. I then expanded my skills to server-side development with Node.js (Express) and SQL for handling databases.
+Currently, I'm deepening my knowledge with React to build dynamic and responsive user interfaces. I’m always excited to learn new technologies and take on new challenges to create better web experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="skills-sub-title">FullStack Development</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/static.jpg"
+                    alt="Static icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Build Your Own Static Website</h3>
+                    <a href="https://certificates.ccbp.in/academy/static-website?id=NIXCQAUGKA" ><p>Certificate</p></a>                   
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/responsive.jpg"
+                    alt="Responsive icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Build Your Own Responsive Website</h3>
+                    <a href="https://certificates.ccbp.in/academy/build-your-own-responsive-website?id=NBCTCHFBWU"><p>Certificate</p></a>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/python.jpg"
+                    alt="Python icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Programming Foundations with Python</h3>
+                    <a href="https://certificates.ccbp.in/academy/programming-foundations-with-python?id=INFVZIACKD"><p>Certificate</p></a>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/dynamic.png"
+                    alt="Dynamic icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Build Your Own Dynamic Web Application</h3>
+                    <a href="https://certificates.ccbp.in/academy/dynamic-web-application?id=ZAHHKMNGVP"><p>Certificate</p></a>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/sql.png"
+                    alt="SQLicon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Databases - SQL</h3>
+                    <a href="https://certificates.ccbp.in/academy/introduction-to-databases?id=PQLDITITSG"><p>Certificate</p></a>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/flexbox.png"
+                    alt="Flexbox icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Responsive Web Design using Flexbox</h3>
+                    <a href="https://certificates.ccbp.in/academy/responsive-web-design-using-flexbox?id=LOYTUQZLEQ"><p>Certificate</p></a>
+                  </div>
+                </article>
+                <article>
+                    <img
+                      src="./assets/js.png"
+                      alt="JS icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>JavaScript Essentials</h3>
+                      <a href="https://certificates.ccbp.in/academy/javascript-essentials?id=BRBXKFRCMT"><p>Certificate</p></a>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/gitHub.jpg"
+                      alt="GIT icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Developer Foundations - Git & CLI</h3>
+                      <a href="https://certificates.ccbp.in/academy/developer-foundations?id=WMOYJXIVQM"><p>Certificate</p></a>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/nodeExpress.png"
+                      alt="nodeExpress icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Node Js & Express</h3>
+                      <p>Almost Completed</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/react.png"
+                      alt="React icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>React</h3>
+                      <p>In Progress</p>
+                    </div>
+                  </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="skills-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img
+                      src="./assets/todo.png"
+                      alt="Project 1"
+                      class="project-img"
+                    />
+                  </div>
+              <h2 class="experience-sub-title project-title">Todo App</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Harinee2005/Todo-App'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://harustodoweb.ccbp.tech/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img
+                      src="./assets/gallery.jpg"
+                      alt="Project 2"
+                      class="project-img"
+                    />
+                  </div>
+              <h2 class="experience-sub-title project-title">Gallery App</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Harinee2005/Gallery-App'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://picsgallery.ccbp.tech/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/history.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Browse History</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Harinee2005/Browser-History'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://browzzhistoryy.ccbp.tech/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:harineeshanmugam125@gmail.com">Gmail: harineeshanmugam125@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/harinee-shanmugam/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+
+      <script src="index.js"></script>
+</body>
+</html>
